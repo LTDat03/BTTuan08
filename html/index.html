@@ -48,6 +48,76 @@
           21026661-Lương Tấn Đạt-DHKTPM17A
         </h3>
       </div>
+      <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Đặt lịch khám online</h2>
+              <button type="button" data-dismiss="modal" class="close">&times;</button>
+            </div>    
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="expamleInputID" class="h6">Mã bệnh nhân</label>
+                  <input
+                  type="text"
+                  id="expamleInputID"
+                  class="form-control"
+                  placeholder="Mã bệnh nhân"
+                  />
+                  <small class="form-text text-danger">(*)BN-YYYYYY</small>
+                </div>
+                <div class="form-group">
+                  <label for="expamleInputPass" class="h6">Mật khẩu</label>
+                  <input
+                  type="password"
+                  id="expamleInputPass"
+                  class="form-control"
+                  placeholder="Mật khẩu"
+                  />
+                  <small class="form-text text-danger">(*)</small>
+                </div>
+                <div class="form-group">
+                  <label for="expamleInputDate" class="h6">Ngày khám</label>
+                  <input
+                    type="date"
+                    id="expamleInputDate"
+                    class="form-control"
+                    />
+                    <small class="form-text text-danger">(*)</small>
+                </div>
+                <div class="form-check form-check-inline custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" name="inlineCheckbox1" id="inlineCheckbox1" class="custom-control-input form-check-input" value="option1">
+                  <label for="inlineCheckbox1" class="custom-control-label form-check-label">Khám bệnh theo yêu cầu</label>
+                </div>
+                <div class="form-check form-check-inline custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" name="inlineCheckbox2" id="inlineCheckbox2" class="custom-control-input form-check-input" value="option2">
+                  <label for="inlineCheckbox2" class="custom-control-label form-check-label">Điều trị ngoại trù</label>
+                </div>
+                <div class="form-check form-check-inline custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" name="inlineCheckbox3" id="inlineCheckbox3" class="custom-control-input form-check-input" value="option3">
+                  <label for="inlineCheckbox3" class="custom-control-label form-check-label">Bác sĩ theo yêu cầu</label>
+                </div>
+                <div class="form-group">
+                  <label for="expamleInputChuyenKhoan" class="h6">Chuyên khoa</label>
+                  <select name="expamleInputChuyenKhoan" id="expamleInputChuyenKhoan" class="form-control">
+                    <option>Ngoại tổng quát</option>
+                    <option>Nhi </option>
+                    <option>Nội tổng quát</option>
+                  </select> 
+                </div>
+                <div class="form-group">
+                  <button type="button" class="btn btn-info">Đặt lịch</button>  
+                </div>
+              </form>
+              <div class="form-group">
+                <button type="button" class="btn btn-info">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="../js/scripts.js"></script>
   </body>
 </html>
